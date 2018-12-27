@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp_Meteorological", "WebApp_Meteorological\WebApp_Meteorological.csproj", "{B899D97C-96FF-4385-AF22-547CCF34CC50}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5FBD1767-6D4A-4503-98D0-4D88F70DF828} = {5FBD1767-6D4A-4503-98D0-4D88F70DF828}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{BF929A4A-6577-47C5-BA54-AB7B584FB04E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_Meteorological", "WCF_Meteorological\WCF_Meteorological.csproj", "{5FBD1767-6D4A-4503-98D0-4D88F70DF828}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B899D97C-96FF-4385-AF22-547CCF34CC50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B899D97C-96FF-4385-AF22-547CCF34CC50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B899D97C-96FF-4385-AF22-547CCF34CC50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B899D97C-96FF-4385-AF22-547CCF34CC50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF929A4A-6577-47C5-BA54-AB7B584FB04E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF929A4A-6577-47C5-BA54-AB7B584FB04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF929A4A-6577-47C5-BA54-AB7B584FB04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF929A4A-6577-47C5-BA54-AB7B584FB04E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FBD1767-6D4A-4503-98D0-4D88F70DF828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FBD1767-6D4A-4503-98D0-4D88F70DF828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FBD1767-6D4A-4503-98D0-4D88F70DF828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FBD1767-6D4A-4503-98D0-4D88F70DF828}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
